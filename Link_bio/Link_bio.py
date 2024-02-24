@@ -7,8 +7,8 @@ from Link_bio.views.Sponsors.sponsors import sponsors
 import Link_bio.estilo.estilo as styles
 from Link_bio.estilo.estilo import Size,EmSize
 
-class State(rx.State):
-    pass
+#class State(rx.State):
+ #   pass
 
 
 def index() -> rx.Component:
