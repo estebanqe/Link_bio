@@ -8,23 +8,23 @@ from Link_bio.estilo.estilo import Size as Size
 def sponsors() -> rx.Component:
     return rx.vstack(
         title("Creyente & Hijos"),
-       
-          rx.hstack(
+          rx.flex(
                Link_sponsor(
-                    "carpinteria.jpg",
+                    "/carpinteria.jpg",
                     const.CARPINTERIA, 
                     "simbolo de carpinteria"        
                ),
                Link_sponsor(
-                    "logo_c.png",
+                    "/logo_c.png",
                     const.CARPINTERIA, 
                     "simbolo de carpinteria"        
                ),
            spacing=Size.BIG.value,
-           #columns=[1,2],
+           flex_direction=["column", "row"]
+
           ),
        
         width="100%",
         align_items="start",
-        spacing=Size.MEDIUM.value
+        spacing=Size.DEFAULT.value
     )

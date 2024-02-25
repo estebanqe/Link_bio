@@ -1,3 +1,8 @@
+# Comunes
+G_TAG = "G-3YGHT3XJFS"
+
+
+
 #cabecera
 
 #comtacto
@@ -22,3 +27,7 @@ MADERA_PERSONALIZADA="https://creyentemadera.my.canva.site/creyentemadera"
 TABLA_PICAR="https://creyentemadera.my.canva.site/creyentemadera"
 MUEBLES_PERSONLAZADOS="https://creyentemadera.my.canva.site/creyentemadera"
 AMOBLADO_AREA="https://creyentemadera.my.canva.site/creyentemadera"
+
+
+#otra pagina
+Creyente="https://creyente.vercel.app/"
