@@ -34,7 +34,7 @@ def footer() -> rx.Component:
             font_size=EmSize.MEDIUM.value,
         ),
             rx.text(
-                "Innovación en Madera: Inspirando Espacios, Creando Historias para tu hogar.",
+                "Innovación en Madera: Inspirando Espacios, Creando Historias.",
                 font_size=EmSize.MEDIUM.value,
                 margin_top=EmSize.ZERO.value       #quita el espacio entre los textos que los distancia en el eje Y
             ),
